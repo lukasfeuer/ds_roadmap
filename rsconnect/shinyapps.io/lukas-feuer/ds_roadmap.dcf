@@ -1,0 +1,12 @@
+name: ds_roadmap
+title: ds_roadmap
+username:
+account: lukas-feuer
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5466469
+bundleId: 5483539
+url: https://lukas-feuer.shinyapps.io/ds_roadmap/
+when: 1642568467.50874
+asMultiple: FALSE
+asStatic: FALSE

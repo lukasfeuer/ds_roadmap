@@ -57,11 +57,12 @@ ui <- fluidPage(
         column(width = 4,
                h3("Projects"),
                hr(),
-               wellPanel(uiOutput('dynamic')), ),
+               wellPanel(class = "project_container", uiOutput('dynamic')), ),
         column(width = 8,
                h3("Time Line"),
                hr(),
-               wellPanel(timevisOutput("timeline")))
+               wellPanel(class = "timeline_container", 
+                         timevisOutput("timeline")))
     )
     
 )
@@ -101,8 +102,8 @@ server <- function(input, output) {
         wellPanel(
             class = "info_box",
             h4(x$value[x$var == "content"]),
-            x$value[x$var == "model_type"],
-            hr(),
+            tags$b("Model Type:"),
+            tags$i(x$value[x$var == "model_type"]), br(),
             tags$b("Model Period:"),
             tags$i("\nfrom", x$value[x$var == "start"],
                    "\nto", x$value[x$var == "start"]),
