@@ -1,0 +1,32 @@
+id;content;start;end;group;type;kommentar;model_type
+1;Holidays;20.12.21;03.01.22;NA;background;NA;NA
+2;Welcome!;12.11.21;11.01.22;a;range;Welcome to this little data science project-planning app! This application is a template to test out an reactive background (mind at the bottom section below the background also interacts with your mouse). Also I build the app to display as many panels as there are projects found in the data. This means the code for the panel is only written once as a function. To add a bit of complexity, the assumption is, that every project has a similar structure of mile stones that are due in a fixed realtion to the start- and end-point.;Update
+3;Data Delivery;12.11.21;NA;a;point;NA;NA
+4;Data Screening;12.11.21;NA;a;point;NA;NA
+5;Quality Check;04.01.22;NA;a;point;NA;NA
+6;Preliminary Discussion;08.01.22;NA;a;point;NA;NA
+7;Presentation;11.01.22;NA;a;point;NA;NA
+8;Lorem ipsum;12.11.21;11.01.22;b;range;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. ;New Model
+9;Data Delivery;12.11.21;NA;b;point;NA;NA
+10;Data Screening;12.11.21;NA;b;point;NA;NA
+11;Quality Check;04.01.22;NA;b;point;NA;NA
+12;Preliminary Discussion;08.01.22;NA;b;point;NA;NA
+13;Presentation;11.01.22;NA;b;point;NA;NA
+14;Lorem ipsum;12.11.21;11.01.22;c;range;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. ;New Model
+15;Data Delivery;12.11.21;NA;c;point;NA;NA
+16;Data Screening;12.11.21;NA;c;point;NA;NA
+17;Quality Check;04.01.22;NA;c;point;NA;NA
+18;Preliminary Discussion;08.01.22;NA;c;point;NA;NA
+19;Presentation;11.01.22;NA;c;point;NA;NA
+20;Lorem ipsum;12.11.21;11.01.22;d;range;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. ;Update
+21;Data Delivery;12.11.21;NA;d;point;NA;NA
+22;Data Screening;12.11.21;NA;d;point;NA;NA
+23;Quality Check;04.01.22;NA;d;point;NA;NA
+24;Preliminary Discussion;08.01.22;NA;d;point;NA;NA
+25;Presentation;11.01.22;NA;d;point;NA;NA
+26;Lorem ipsum;12.11.21;11.01.22;e;range;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. ;Update
+27;Data Delivery;12.11.21;NA;e;point;NA;NA
+28;Data Screening;12.11.21;NA;e;point;NA;NA
+29;Quality Check;04.01.22;NA;e;point;NA;NA
+30;Preliminary Discussion;08.01.22;NA;e;point;NA;NA
+31;Presentation;11.01.22;NA;e;point;NA;NA

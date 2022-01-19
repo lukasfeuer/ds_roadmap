@@ -1,0 +1,73 @@
+/* CUSTOM CSS for Project App */
+
+#particles-js canvas{ 
+  position: absolute; 
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  height: 100%;
+  width: 100%; 
+  background-color: #000716; 
+  background-image: url(""); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: 50% 50%; 
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+div.well.info_box {
+    height: auto;
+    overflow: auto;
+    box-shadow: 4px 4px 11px 2px #888888;
+}
+
+/* Glacial Indifferencence as Web-Font: https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts*/
+@font-face {
+  font-family: "glacial";
+  src: url(GlacialIndifference-Regular.otf);
+}
+
+.main-header .logo {
+  font-family: "glacial";
+  font-size: 24px;
+}
+
+* { 
+  font-family: "glacial";
+}
+
+#title { 
+  font-family: "glacial";
+  color: #fff;
+}
+
+.h1, h1 {
+  margin-left: 15px;
+  color: #fff;
+}
+
+h2 { 
+  font-family: "glacial";
+  color: #fff;
+}
+
+h3 { 
+  font-family: "glacial";
+  color: #fff;
+}
+
+h4 { 
+  font-family: "glacial";
+}
